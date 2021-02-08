@@ -52,11 +52,14 @@ img {
   padding: .4rem;
 }
 
+.address {
+  font-size: 20pt;
+  text-align: center;
+  color: rgb(171, 49, 33);
+}
 /* Footer */
 
 footer, li a {
-
-  padding: .5rem;
   text-align: center;
   color: white;
 }
@@ -79,10 +82,15 @@ footer, li a {
   }
 
   .contact {
-
     padding: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  @media screen and (max-width: 450px){
+    .map {
+      max-width: 95%;
+    }
   }
 }
