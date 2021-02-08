@@ -1,0 +1,25 @@
+.teams {
+  display: flex;
+  justify-content:center;
+
+  background-image: url(/assets/images/redcandy.jpg);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  padding: 3rem;
+  text-align: center;
+}
+
+.cards {
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgba(171, 49, 33, 0.5);
+  color: white;
+}
+
+.gallery{
+  font-size: 50pt;
+  color:rgb(171, 49, 33);
+}

@@ -1,0 +1,101 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color:rgba(212, 212, 212, 0.8);
+
+  font-size: 14pt;
+  letter-spacing: 5pt;
+
+
+}
+
+ul li {
+  padding-right: 48px;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(54, 24, 10);
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(129, 0, 43);
+}
+
+/*Hero Section */
+
+header {
+  height: 100vh;
+
+  text-align: center;
+
+  background-image: url(/assets/images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero {
+  padding: 12rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 70px;
+  letter-spacing: 1rem;
+  
+  padding: 1rem;
+  border: 5px dashed white;
+  background-color: rgb(255, 225, 225, 0.8);
+  color: rgb(171, 49, 33);
+}
+
+.tagline {
+  font-size: 18pt;
+  padding: 1rem;
+  background-color: rgba(233, 233, 233, 0.8);
+  color:rgba(100, 103, 54);
+  letter-spacing: .5rem;
+}
+
+/* Call to Action */
+
+button {
+  border-radius: 1rem;
+  padding: 1.6rem;
+  background-color: rgb(216, 176, 107);
+
+  font-size: 1.3rem;
+}
+
+.cta{
+  color: white;
+  letter-spacing: .3rem;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 700px) {
+  .navbar, ul li {
+
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    background-color: rgba(250, 128, 114, .8);
+    padding:.5rem;
+    
+    letter-spacing: 0;
+  }
+
+  .hero {
+    padding-top: 0;
+  }
+}

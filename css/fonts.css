@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pattaya&display=swap');
+
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, .logo, button {
+  font-family: 'Pattaya', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  color:rgb(171, 49, 33);
+}
