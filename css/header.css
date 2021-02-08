@@ -49,17 +49,14 @@ h1 {
   margin: 0;
   font-size: 70px;
   letter-spacing: 1rem;
-  
-  padding: 1rem;
-  border: 5px dashed white;
-  background-color: rgb(255, 225, 225, 0.8);
+
+  background-position: relative;
   color: rgb(171, 49, 33);
 }
 
 .tagline {
   font-size: 18pt;
   padding: 1rem;
-  background-color: rgba(233, 233, 233, 0.8);
   color:rgba(100, 103, 54);
   letter-spacing: .5rem;
 }
