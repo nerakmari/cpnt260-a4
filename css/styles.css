@@ -5,5 +5,58 @@ body {
 img {
   max-width: 300px;
   max-height: 400px;
+}
+/* Story Section */
+
+.about {
+  
+  margin: 3rem;
+  height: 75vh;
+  background-image: url(../assets/images/sourstrips.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  text-align: center;
+  padding-top: 10rem;
+  padding-left: 30rem;
+}
 
 /* Contact Section */
+
+.contact {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+#newsletter {
+  font-size: 20pt;
+  padding: 1rem;
+  display: flex;
+  flex-direction:column;
+
+  color: rgb(100, 103, 54);
+}
+
+.form{
+  padding: 4rem;
+  border: 3px solid rgb(100, 103, 54);
+}
+.submit {
+  background-color:rgb(100, 103, 54);
+  color: white;
+  padding: .4rem;
+}
+
+/* Footer */
+
+footer, li a {
+
+  padding: .5rem;
+  text-align: center;
+  color: white;
+}

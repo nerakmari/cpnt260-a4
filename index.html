@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/gallery.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <body>
   
   <header>
@@ -32,9 +33,15 @@
 
   <main>
 
+    <section class="about">
+      <article class="content">
+        <h2>Story</h2>
+        <p>It all started when a person tasted candy and thought about making a flavoured lip tint with it.</p>
+      </article> 
+    </section>
+
     <h2 class="gallery">Our Team</h2>
     <section class="teams">
-     
       <article class="container">
         <figure class="cards">
           <img src="https://kaboompics.com/cache/0/9/8/a/c/098ac14dbbe06d9899ca9ec546c25b60e52fed4f.jpeg" alt="woman with laptop">
@@ -59,24 +66,27 @@
     <section class="contact">
       <div id="newsletter">
         <h3>Sign Up for Newsletter Here!</h3>
-          <form action="https://formspree.io/f/xvovylgy" method="POST"> Name
-            <input type="text" name="name"> Email
-            <input type="email" name="_replyto">
-            <input type="submit" value="Send">
-          </form>
+        <div class="form">
+          <form action="https://formspree.io/f/xvovylgy" method="post"></form>
+          <label for="email">EMAIL</label>
+            <input name="Email" id="email" type="email">
+            <button class="submit" type="submit">Submit</button>
+        </div>
        </div>
       <div class="address">
         <h3>Locate Us</h3>
-        <p>3a Parkdale Crescent NW </p>
-        <p>Calgary, Alberta, T2N 3T8</p>
-        <p>587.349.DOGS (3647)</p>
-      </div>
-      <div class="googlemaps">
+        <div class="googlemaps">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.997022329812!2d-114.04575798436075!3d51.05314277956304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5371652b6248e607%3A0xa61d482f733a8338!2sDoodle%20Dogs%20-%20Bridgeland!5e0!3m2!1sen!2sca!4v1612720943867!5m2!1sen!2sca" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
-    </section>
+  
   </main>
 
-  <footer> &#169; Karen Sule 2021</footer>
+  <footer>
+    <ul class="socials">
+      <li><a href="https://twitter.com/jensimmons?s=20" target="blank"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/kiyothelab/" target="blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://jensimmons.com/" target="blank"><i class="fab fa-snapchat-ghost"></i></a></li>
+    </ul> 
+    &#169; Karen Sule 2021</footer>
 </body>
 </html>
