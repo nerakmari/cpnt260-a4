@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
   background-color:rgba(212, 212, 212, 0.8);
 
   font-size: 14pt;
@@ -18,14 +19,14 @@ ul li {
   list-style-type: none;
 }
 
-a {
+li a {
   text-decoration: none;
-  color: rgb(54, 24, 10);
+  color: rgb(129, 0, 43);
 }
 
 a:hover {
   cursor: pointer;
-  color: rgb(129, 0, 43);
+  color:rgb(171, 49, 33);
 }
 
 /*Hero Section */

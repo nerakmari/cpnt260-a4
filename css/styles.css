@@ -1,5 +1,7 @@
 body {
   background-color: rgb(221, 204, 197);
+  max-width: 100%;
+  max-height: 100%;
 }
 
 img {
@@ -59,9 +61,13 @@ img {
 }
 /* Footer */
 
-footer, li a {
+footer, .socials li a{
   text-align: center;
   color: white;
+}
+
+.socials li a:hover {
+  color:rgb(171, 49, 33);
 }
 
 
