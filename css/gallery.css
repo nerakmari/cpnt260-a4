@@ -13,8 +13,16 @@
 }
 
 .cards {
+  flex-wrap: wrap;
   padding: 2rem;
   border-radius: 10px;
   background-color: rgba(171, 49, 33, 0.5);
   color: white;
 }
+
+/*media query*/
+
+@media screen and (max-width:1200px){
+  .teams {
+    flex-direction: column;
+  }
