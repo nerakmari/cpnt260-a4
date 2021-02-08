@@ -1,25 +1,33 @@
 # CPNT260- Hero Section 
 
-## Images
+## Repository Owner and Maintainer: Karen Sule
 
-- Hero Image :https://kaboompics.com/photo/16668/mix-of-sweets-negative-space-copy
-  - https://kaboompics.com/page/license-and-faq
+[Github Repository](https://github.com/nerakmari/cpnt260-a4)
 
-- Pill Image: https://kaboompics.com/photo/16696/gummy-sweets
-- Green Candy: https://kaboompics.com/photo/16688/gummy-sweets
-- Red Candy: https://kaboompics.com/photo/16687/gummy-sweets
-- Yellow Candy: https://kaboompics.com/photo/16675/gummy-sweets
-- Sour Strips: https://kaboompics.com/photo/16678/gummy-sweets
+[Github Page](https://nerakmari.github.io/cpnt260-a4/)
 
-- Woman with laptop: https://kaboompics.com/photo/19965/a-woman-works-at-a-desk-in-her-home
-- Woman with Pineapple: https://kaboompics.com/photo/17670/a-beautiful-smiling-young-woman-is-holding-a-pineapple
-- Woman Smiling with Mic: https://kaboompics.com/photo/19107/a-young-woman-works-on-a-laptop-from-home
+## Context 
+The website is based on like makeup companies using candy themed for their new line of products. The client is someone who is maybe an influencer wanting to customize their page in their page from the company they got sponsored. 
 
--lipstick: https://unsplash.com/photos/mzstXkKH8DI
+The goal of the website is showcase just the themes of the new line of products. 
 
 
-## Code
+## Things to Improve
+I wanted to include more makeup-like pictures but most of the pictures I found don't fit the theme so I opted it. 
 
-- Hero: https://codetheweb.blog/fullscreen-image-hero/
+I tried doing a different approach in organizing my css files and I think that there are things overlapping or I didn't do it right. 
 
-- color palette: https://coolors.co/d0a0ad-ddccc5-646736-ab3121-d8b06b-36180a
+I would try to do a hamburger menu next time so I could improve my skills.
+
+## Image Attributions
+All Images Attribute to Karolina Grabowska in [Kaboompics](https://kaboompics.com/photographer/karolina) | [License](https://kaboompics.com/page/license-and-faq)
+
+## Code Attributions
+
+[Hero](https://codetheweb.blog/fullscreen-image-hero/)
+
+## Honourable Mentions 
+1. Kyle Welsh
+2. Swapna Sama
+3. Ellie Forte
+4. Erica Trinh 

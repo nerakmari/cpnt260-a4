@@ -13,3 +13,21 @@ h2 {
   font-size: 35pt;
   color:rgb(171, 49, 33);
 }
+
+.navbar {
+  font-size:14pt;
+  letter-spacing: 5pt;
+}
+
+.cta {
+  font-size: 1.3rem;
+}
+
+.address {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.cards {
+  font-size: 20pt;
+}
