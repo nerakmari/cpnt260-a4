@@ -87,6 +87,8 @@ button {
   .navbar, ul li {
     display: flex;
     flex-direction: column-reverse;
+    letter-spacing: 0;
+    padding-bottom: .4rem;
   }
 
   .hero {

@@ -13,16 +13,27 @@
 }
 
 .cards {
-  flex-wrap: wrap;
   padding: 2rem;
-  border-radius: 10px;
-  background-color: rgba(171, 49, 33, 0.5);
+  background-color:rgba(171, 49, 33, 0.5);
+  border-radius: 20px;
   color: white;
+  font-size: 20pt;
 }
 
 /*media query*/
 
 @media screen and (max-width:1200px){
   .teams {
-    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    background-position: center;
   }
+
+}
+
+@media screen and (max-width:500px){
+  .cards {
+    max-width: 250px;
+    padding: 0;
+}
+}
